@@ -16,7 +16,7 @@ form.addEventListener("submit", function (event) {
 
     // Buat pesan yang akan dikirim ke WhatsApp
     let message = `Nama: ${namaForm}\nEmail: ${emailForm}\nPesan: ${pesanForm}`;
-    let phoneNumber = "6283896993978"; // Ganti dengan nomor WhatsApp tujuan Anda
+    let phoneNumber = "6212345678998"; // Ganti dengan nomor WhatsApp tujuan Anda
     let whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     // Alihkan ke URL WhatsApp
